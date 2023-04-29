@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Planets</title>
+</head>
+<body>
+  <div id="preloader">
+    <div class="loader">
+      <div class="loader-planet"></div>
+      <div class="loader_bar" id="loader_bar"></div>
+    </div>
+  </div>
+    <header class="space">
+        <img src="mercury1.png" alt="Mercury" class="mercury" id="mercury" onclick="startMercury()">
+        <p class="mercury-info">Mercury—the smallest planet in our solar system and closest to the Sun—is only slightly larger than Earth's Moon. Mercury is the fastest planet, zipping around the Sun every 88 Earth days.</p>
+        <a class="mercury-button" href="#content-mercury">READ MORE</a>
+        <img src="venus2.png" alt="Venus" class="venus" id="venus" onclick="startVenus()">
+        <p class="venus-info">Venus spins slowly in the opposite direction from most planets. A thick atmosphere traps heat in a runaway greenhouse effect, making it the hottest planet in our solar system.</p>
+        <a class="venus-button" href="#content-venus">READ MORE</a>
+        <img src="earth3.png" alt="Earth" class="earth" id="earth" onclick="startEarth()">
+        <p class="earth-info">Earth—our home planet—is the only place we know of so far that’s inhabited by living things. It's also the only planet in our solar system with liquid water on the surface.</p>
+        <a class="earth-button" href="#content-earth">READ MORE</a>
+        <img src="mars4.png" alt="Mars" class="mars" id="mars" onclick="startMars()">
+        <p class="mars-info">Mars is a dusty, cold, desert world with a very thin atmosphere. There is strong evidence Mars was – billions of years ago – wetter and warmer, with a thicker atmosphere.</p>
+        <a class="mars-button" href="#content-mars">READ MORE</a>
+        <img src="jupiter5.png" alt="Jupiter" class="jupiter" id="jupiter" onclick="startJupiter()">
+        <p class="jupiter-info">Jupiter is more than twice as massive than the other planets of our solar system combined. The giant planet's Great Red spot is a centuries-old storm bigger than Earth.</p>
+        <a class="jupiter-button" href="#content-jupiter">READ MORE</a>
+        <img src="saturn6.png" alt="Saturn" class="saturn" id="saturn" onclick="startSaturn()">
+        <p class="saturn-info">Adorned with a dazzling, complex system of icy rings, Saturn is unique in our solar system. The other giant planets have rings, but none are as spectacular as Saturn's.</p>
+        <a class="saturn-button" href="#content-saturn">READ MORE</a>
+        <img src="uranus7.png" alt="Uranus" class="uranus" id="uranus" onclick="startUranus()">
+        <p class="uranus-info">Uranus—seventh planet from the Sun—rotates at a nearly 90-degree angle from the plane of its orbit. This unique tilt makes Uranus appear to spin on its side.</p>
+        <a class="uranus-button" href="#content-uranus">READ MORE</a>
+        <img src="neptune8.png" alt="Neptune" class="neptune" id="neptune" onclick="startNeptune()">
+        <p class="neptune-info">Neptune—the eighth and most distant major planet orbiting our Sun—is dark, cold and whipped by supersonic winds. It was the first planet located through mathematical calculations.</p>
+        <a class="neptune-button" href="#content-neptune">READ MORE</a>
+    </header>
+    <section class="content">
+
+  <div class="content-mercury" id="content-mercury">
+  <h1>Mercury</h1>
+  <p>The smallest planet in our solar system and nearest to the Sun, Mercury is only slightly larger than Earth's Moon. From the surface of Mercury, the Sun would appear more than three times as large as it does when viewed from Earth, and the sunlight would be as much as seven times brighter.
+
+  Mercury's surface temperatures are both extremely hot and cold. Because the planet is so close to the Sun, day temperatures can reach highs of 800°F (430°C). Without an atmosphere to retain that heat at night, temperatures can dip as low as -290°F (-180°C).
+            
+  Despite its proximity to the Sun, Mercury is not the hottest planet in our solar system – that title belongs to nearby Venus, thanks to its dense atmosphere. But Mercury is the fastest planet, zipping around the Sun every 88 Earth days.</p>
+  <div class="content-mercury-img"></div></div>
+
+  <div class="content-venus" id="content-venus">
+  <h1>Venus</h1>
+  <p>It's a cloud-swaddled planet named for a love goddess, often called Earth’s twin. But pull up a bit closer, and Venus turns hellish. Our nearest planetary neighbor, the second planet from the Sun, has a surface hot enough to melt lead. The atmosphere is so thick that, from the surface, the Sun is just a smear of light.
+
+  In some ways it is more an opposite of Earth than a twin: Venus spins backward, has a day longer than its year, and lacks any semblance of seasons. It might once have been a habitable ocean world, like Earth, but that was at least a billion years ago. A runaway greenhouse effect turned all surface water into vapor, which then leaked slowly into space. The present-day surface of volcanic rock is blasted by high temperatures and pressures. Asked if the surface of Venus is likely to be life-bearing today, we can give a quick answer: a hard “no.”</p>
+  <div class="content-venus-img"></div></div>
+
+  <div class="content-earth" id="content-earth">
+  <h1>Earth</h1>
+  <p>Our home planet is the third planet from the Sun, and the only place we know of so far that’s inhabited by living things. While Earth is only the fifth largest planet in the solar system, it is the only world in our solar system with liquid water on the surface. Just slightly larger than nearby Venus, Earth is the biggest of the four planets closest to the Sun, all of which are made of rock and metal.</p>
+  <div class="content-earth-img"></div></div>
+
+  <div class="content-mars" id="content-mars">
+  <h1>Mars</h1>
+  <p>​Mars is the fourth planet from the Sun – a dusty, cold, desert world with a very thin atmosphere. Mars is also a dynamic planet with seasons, polar ice caps, canyons, extinct volcanoes, and evidence that it was even more active in the past.
+
+  Mars is one of the most explored bodies in our solar system, and it's the only planet where we've sent rovers to roam the alien landscape.</p>
+  <div class="content-mars-img"></div></div>
+
+  <div class="content-jupiter" id="content-jupiter">
+  <h1>Jupiter</h1>
+  <p>Jupiter is the fifth planet from our Sun and is, by far, the largest planet in the solar system – more than twice as massive as all the other planets combined. Jupiter's stripes and swirls are actually cold, windy clouds of ammonia and water, floating in an atmosphere of hydrogen and helium. Jupiter’s iconic Great Red Spot is a giant storm bigger than Earth that has raged for hundreds of years.
+
+  Jupiter is surrounded by dozens of moons. Jupiter also has several rings, but unlike the famous rings of Saturn, Jupiter’s rings are very faint and made of dust, not ice.</p>
+  <div class="content-jupiter-img"></div></div>
+
+  <div class="content-saturn" id="content-saturn">
+  <h1>Saturn</h1>
+  <p>Saturn is the sixth planet from the Sun and the second-largest planet in our solar system. Like fellow gas giant Jupiter, Saturn is a massive ball made mostly of hydrogen and helium. Saturn is not the only planet to have rings, but none are as spectacular or as complex as Saturn's. Saturn also has dozens of moons.
+
+  From the jets of water that spray from Saturn's moon Enceladus to the methane lakes on smoggy Titan, the Saturn system is a rich source of scientific discovery and still holds many mysteries.</p>
+  <div class="content-saturn-img"></div></div>
+
+  <div class="content-uranus" id="content-uranus">
+  <h1>Uranus</h1>
+  <p>The seventh planet from the Sun with the third largest diameter in our solar system, Uranus is very cold and windy. The ice giant is surrounded by 13 faint rings and 27 small moons as it rotates at a nearly 90-degree angle from the plane of its orbit. This unique tilt makes Uranus appear to spin sideways, orbiting the Sun like a rolling ball.
+
+  The first planet found with the aid of a telescope, Uranus was discovered in 1781 by astronomer William Herschel, although he originally thought it was either a comet or a star. It was two years later that the object was universally accepted as a new planet, in part because of observations by astronomer Johann Elert Bode.</p>
+  <div class="content-uranus-img"></div></div>
+
+  <div class="content-neptune" id="content-neptune">
+  <h1>Neptune</h1>
+  <p>Dark, cold, and whipped by supersonic winds, ice giant Neptune is the eighth and most distant planet in our solar system. More than 30 times as far from the Sun as Earth, Neptune is the only planet in our solar system not visible to the naked eye. In 2011 Neptune completed its first 165-year orbit since its discovery in 1846.
+
+  Neptune is so far from the Sun that high noon on the big blue planet would seem like dim twilight to us. The warm light we see here on our home planet is roughly 900 times as bright as sunlight on Neptune.</p>
+  <div class="content-neptune-img"></div></div>
+
+    </section>
+<footer>
+  <div class="footer-info">
+  <div class="footer-read">
+      <p>Read more</p>
+      <div class="footer-link">
+      <ul>
+          <li><a href="https://solarsystem.nasa.gov/planets/mercury/overview/" target="_blank">Mercury</a></li>
+          <li><a href="https://solarsystem.nasa.gov/planets/venus/overview/" target="_blank">Venus</a></li>
+          <li><a href="https://solarsystem.nasa.gov/planets/earth/overview/" target="_blank">Earth</a></li>
+          <li><a href="https://solarsystem.nasa.gov/planets/mars/overview/" target="_blank">Mars</a></li>
+      </ul>
+      <ul>
+          <li><a href="https://solarsystem.nasa.gov/planets/jupiter/overview/" target="_blank">Jupiter</a></li>
+          <li><a href="https://solarsystem.nasa.gov/planets/saturn/overview/" target="_blank">Saturn</a></li>
+          <li><a href="https://solarsystem.nasa.gov/planets/uranus/overview/" target="_blank">Uranus</a></li>
+          <li><a href="https://solarsystem.nasa.gov/planets/neptune/overview/" target="_blank">Neptune</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-contakt">
+      <p>Contact</p>
+      <ul>
+          <li>Author: Wiktor Fedorowicz</li>
+          <li>E-mail: Wiktor.Fedorowicz3@onet.pl</li>
+          <li>Discord: Szyszy_#9241</li>
+          <li><a href="https://www.upwork.com/freelancers/~010ad2a07edbc4c740" target="_blank">UpWork<i> <--- CLICK </i></a></li>
+      </ul>
+  </div>
+  </div>
+</footer>
+</body>
+</html>
