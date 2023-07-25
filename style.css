@@ -112,7 +112,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 body{
-  height: 7000px;
+  height: 7200px;
   background-image: linear-gradient(#000, #363553, #5C2774, #903775);
   overflow: overlay;
 }
