@@ -1,13 +1,13 @@
 
-$(window).on('load', function() {
+ $(window).on('load', function() {
     $('#preloader').css({
       "transform": "translateY(-100%)",
-      "transition-delay": "2.2s"
+      "transition-delay": "1.2s"
     });
     $('.loader').css({
       "opacity": "0",
       "transform": "translate(-50%,-100%)",
-      "transition-delay": "4.3s"
+      "transition-delay": "2.3s"
     });
   
     $('.loader_text_unit').each(function() {
@@ -17,6 +17,7 @@ $(window).on('load', function() {
       $({ countNum: $this.text()}).animate({
         countNum: countTo
       },
+      1000,
      );
     });
   });
